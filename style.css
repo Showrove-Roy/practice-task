@@ -8,12 +8,17 @@ body {
 
 h1 {
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 700;
     margin: 0 0 2% 0;
     padding: 0;
 }
 
-p {
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#hero-section p {
     font-size: 20px;
     margin: 10% 0 5% 0;
     font-weight: 500;
@@ -26,6 +31,7 @@ p {
 
 .container-section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -37,7 +43,7 @@ p {
     margin-top: 10%;
 }
 
-.half-width img {
+#hero-section img {
     width: 100%;
 }
 
@@ -47,13 +53,41 @@ p {
 
 .link-button {
     background-image: linear-gradient(40deg, #fe4b2e, #fc8f49);
-    padding: 10px 30px;
+    padding: 15px 40px;
     text-decoration: none;
     text-transform: capitalize;
     color: white;
+    box-shadow: 0px 0px 30px #fe4b2e;
+    font-size: 20px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+}
+
+#about-section {
+    background-image: url(shapes/7.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 0;
+}
+
+#about-section img {
+    width: 65%;
+    margin: -10% 10% 0% 30%;
+}
+
+#about-section h2 {
+    margin-top: 10%;
+}
+
+#about-section p {
+    font-size: 20px;
+    margin: 12% 0 8% 0;
+    font-weight: 500;
+}
+
+#about-section a {
+    margin-top: 20%;
 }
