@@ -19,6 +19,11 @@ p {
     font-weight: 500;
 }
 
+#hero-section {
+    background-image: url(shapes/top-banner.png);
+    background-repeat: no-repeat;
+}
+
 .container-section {
     display: flex;
 }
