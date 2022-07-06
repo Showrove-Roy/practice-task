@@ -31,7 +31,7 @@ h2 {
 
 .container-section {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .half-width {
@@ -90,4 +90,53 @@ h2 {
 
 #about-section a {
     margin-top: 20%;
+}
+
+
+/*Blog contianer section*/
+
+.my-recipies {
+    padding: 70px;
+}
+
+.my-recipies h1 {
+    text-align: center;
+}
+
+.my-recipies-short-pragrapg {
+    text-align: center;
+    padding: 0 15% 3% 15%;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-item {
+    height: 450px;
+    width: 530px;
+    box-shadow: 0 5px 20px #666666a1;
+    /* background-color: #ffdada; */
+    padding: 30px 25px;
+    border-radius: 30px;
+}
+
+.image-box1 {
+    background-image: url(image/Project\ Cover.png);
+    width: 530px;
+    height: 300px;
+    background-color: #4e4e4e;
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-box2 {
+    background-image: url(image/Project\ Cover1.jpg);
+    width: 530px;
+    height: 300px;
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
